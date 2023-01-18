@@ -1,0 +1,123 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+.navbar-brand{
+  margin-left: 50px;
+  padding-top: 10px;
+}
+.main{
+  background-color: #fff;
+}
+.dropdown-1{
+  margin-left: 50px;
+}
+.dropdown-menu img{
+  padding:10px;
+}
+.dropdown-2{
+  margin-left: 15px;
+}
+.careeres{
+  margin-left: 15px;
+}
+.register{
+  padding-left:20px;
+  padding-right:20px;
+}
+.register a{
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+.login{
+  margin-right: 10px;
+}
+.image-container{
+  text-align: center;
+}
+.testimonials{
+  margin-top: 50px;
+}
+.text-container{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+  padding-bottom: 50px;
+}
+.headingonbigscreen{
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.headingsmallscreen{
+  display:none;
+}
+.paragraph{
+  margin-top: 60px;
+  width:80%;
+}
+.button{
+  margin-top: 40px;
+  border-style: none;
+  width:120px;
+  height:50px;
+  background-color: black;
+  color:white;
+  border-radius: 12px;
+}
+.client-images{
+  width:120%;
+  margin-top: 50px;
+}
+.client-images img{
+  margin-right: 40px;
+}
+@media only screen and (max-width:500px){
+
+.image-container img{
+max-width: 100%;
+}
+.headingonbigscreen{
+  display:none;
+}
+
+.headingsmallscreen{
+  display:block;
+  font-size: 40px;
+  font-weight: bold;
+}
+.text-container{
+  text-align: center;
+width:100%;
+}
+.paragraph{
+  margin-top: 30px;
+  width:100%;
+}
+.client-images{
+  width:100%;
+  margin-top: 30px;
+}
+.client-images img{
+  width:70px;
+  margin-right: 10px;
+}
+.navbar-brand{
+  margin-left: 0px;
+  padding-top: 10px;
+}
+.dropdown-1{
+  margin-left: 0px;
+}
+.dropdown-2{
+  margin-left: 0px;
+}
+.careeres{
+  margin-left: 0px;
+}
+
+}
